@@ -1,4 +1,4 @@
-# Coal-Expanded
+# Coal-Expanded (Game mod for Factorio)
 This mod attempts to make coal less of a storage hog while making it more useful as a fuel source by adding new recipes to create new types of coal by condensing it -- making it take up less space while also providing more fuel per unit.
 
 Currently it adds 5 new fuels (aside from diamonds, they are real variations of coal -- in ascending order according to their purity and energy density):
