@@ -22,3 +22,6 @@ Which are crafted by:
   1 Bituminous Coal = 4_000 MJ (4 GJ)
   1 Anthracite = 40_000 MJ (40 GJ)
   1 Diamond = 400_000 MJ (400 GJ)
+
+Future Plans:
+-Add to tech tree so that compression must be unlocked
