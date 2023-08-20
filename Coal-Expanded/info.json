@@ -1,0 +1,16 @@
+{
+  "name": "Coal-Expanded",
+  "version": "0.2.0",
+  "title": "Coal Expanded",
+  "author": "Ovalsquare",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1"],
+  "description": "This mod attempts to make coal less of a storage hog while making it more useful as a fuel source by adding new recipes to create new types of coal by condensing it -- making it take up less space while also providing more fuel per unit:
+
+	10 coal			 --> 1 Lignite (10x fuel)
+	10 Lignite 		 --> 1 Sub-Bituminous Coal (100x fuel)
+	10 Sub-Bituminous Coal   --> 1 Bituminous Coal (1_000x fuel)
+	10 Bituminous Coal 	 --> 1 Anthracite (10_000x fuel)
+	10 Anthracite		 --> 1 Diamond (100_000x fuel)
+"
+}
