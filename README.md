@@ -26,3 +26,4 @@ Which are crafted by:
 
 Future Plans:
 -Add to tech tree so that compression must be unlocked
+-Add a compressor building for the coal compresion
