@@ -5,7 +5,7 @@ local lignite = {
 	flags = {},
 	subgroup = "raw-material",
 	stack_size = 100,
-	fuel_value = "40MJ",
+	fuel_value = "42MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
 }
@@ -16,7 +16,7 @@ local subBituminous = {
 	flags = {},
 	subgroup = "raw-material",
 	stack_size = 100,
-	fuel_value = "400MJ",
+	fuel_value = "464MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
 }
@@ -27,7 +27,7 @@ local bituminous = {
 	flags = {},
 	subgroup = "raw-material",
 	stack_size = 100,
-	fuel_value = "4000MJ",
+	fuel_value = "5336MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
 }
@@ -38,7 +38,7 @@ local anthracite = {
 	flags = {},
 	subgroup = "raw-material",
 	stack_size = 100,
-	fuel_value = "40000MJ",
+	fuel_value = "64032MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
 }
@@ -49,7 +49,7 @@ local diamond = {
 	flags = {},
 	subgroup = "raw-material",
 	stack_size = 100,
-	fuel_value = "400000MJ",
+	fuel_value = "800400MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
 }
