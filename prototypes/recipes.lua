@@ -1,60 +1,60 @@
 local ligniteR = {
 	type = "recipe",
-	name = "Lignite",
+	name = "CE_Lignite",
 	enabled = true,
 	ingredients =
 	{
 		{"coal", 10}
 	},
-	result = "Lignite",
+	result = "CE_Lignite",
 	energy_required=10
 }
 
 local subBituminousR = {
 	type = "recipe",
-	name = "Sub-Bituminous Coal",
+	name = "CE_Sub-Bituminous_Coal",
 	enabled = true,
 	ingredients =
 	{
-		{"Lignite", 10}
+		{"CE_Lignite", 10}
 	},
-	result = "Sub-Bituminous Coal",
+	result = "CE_Sub-Bituminous_Coal",
 	energy_required=15
 }
 
 local bituminousR = {
 	type = "recipe",
-	name = "Bituminous Coal",
+	name = "CE_Bituminous_Coal",
 	enabled = true,
 	ingredients =
 	{
-		{"Sub-Bituminous Coal", 10}
+		{"CE_Sub-Bituminous_Coal", 10}
 	},
-	result = "Bituminous Coal",
+	result = "CE_Bituminous_Coal",
 	energy_required=30
 }
 
 local anthraciteR = {
 	type = "recipe",
-	name = "Anthracite",
+	name = "CE_Anthracite",
 	enabled = true,
 	ingredients =
 	{
-		{"Bituminous Coal", 10}
+		{"CE_Bituminous_Coal", 10}
 	},
-	result = "Anthracite",
+	result = "CE_Anthracite",
 	energy_required=50
 }
 
 local diamondR = {
 	type = "recipe",
-	name = "Diamond",
+	name = "CE_Diamond",
 	enabled = true,
 	ingredients =
 	{
-		{"Anthracite", 10}
+		{"CE_Anthracite", 10}
 	},
-	result = "Diamond",
+	result = "CE_Diamond",
 	energy_required=75
 }
 
