@@ -1,3 +1,4 @@
+
 local lignite_item = {
 	type = "item",
 	name = "CE_Lignite",
