@@ -1,62 +1,33 @@
-local ligniteR = {
-	type = "recipe",
-	name = "CE_Lignite",
-	enabled = true,
-	ingredients =
-	{
-		{"coal", 10}
-	},
-	result = "CE_Lignite",
-	energy_required=10
-}
+local lignite_recipe = table.deepcopy(data.raw["item"]["coal"]);
+local sub_bituminous_recipe = table.deepcopy(data.raw["item"]["coal"]);
+local bituminous_recipe = table.deepcopy(data.raw["item"]["coal"]);
+local anthracite_recipe = table.deepcopy(data.raw["item"]["coal"]);
+local diamond_recipe = table.deepcopy(data.raw["item"]["coal"]);
 
-local subBituminousR = {
-	type = "recipe",
-	name = "CE_Sub-Bituminous_Coal",
-	enabled = true,
-	ingredients =
-	{
-		{"CE_Lignite", 10}
-	},
-	result = "CE_Sub-Bituminous_Coal",
-	energy_required=15
-}
+lignite_recipe.name = "CE_Lignite_recipe";
+lignite_recipe.enabled = true;
+lignite_recipe.ingredients = { {"coal", 10} };
+lignite_recipe.results = { {type="item", name="CE_Lignite", amount=1} };
 
-local bituminousR = {
-	type = "recipe",
-	name = "CE_Bituminous_Coal",
-	enabled = true,
-	ingredients =
-	{
-		{"CE_Sub-Bituminous_Coal", 10}
-	},
-	result = "CE_Bituminous_Coal",
-	energy_required=30
-}
+sub_bituminous_recipe.name = "CE_Lignite_recipe";
+sub_bituminous_recipe.enabled = true;
+sub_bituminous_recipe.ingredients = { {"coal", 10} };
+sub_bituminous_recipe.results = { {type="item", name="CE_Lignite", amount=1} };
 
-local anthraciteR = {
-	type = "recipe",
-	name = "CE_Anthracite",
-	enabled = true,
-	ingredients =
-	{
-		{"CE_Bituminous_Coal", 10}
-	},
-	result = "CE_Anthracite",
-	energy_required=50
-}
+bituminous_recipe.name = "CE_Lignite_recipe";
+bituminous_recipe.enabled = true;
+bituminous_recipe.ingredients = { {"coal", 10} };
+bituminous_recipe.results = { {type="item", name="CE_Lignite", amount=1} };
 
-local diamondR = {
-	type = "recipe",
-	name = "CE_Diamond",
-	enabled = true,
-	ingredients =
-	{
-		{"CE_Anthracite", 10}
-	},
-	result = "CE_Diamond",
-	energy_required=75
-}
+anthracite_recipe.name = "CE_Lignite_recipe";
+anthracite_recipe.enabled = true;
+anthracite_recipe.ingredients = { {"coal", 10} };
+anthracite_recipe.results = { {type="item", name="CE_Lignite", amount=1} };
+
+diamond_recipe.name = "CE_Lignite_recipe";
+diamond_recipe.enabled = true;
+diamond_recipe.ingredients = { {"coal", 10} };
+diamond_recipe.results = { {type="item", name="CE_Lignite", amount=1} };
 
 
-data:extend({ligniteR, subBituminousR, bituminousR, anthraciteR, diamondR})
+data:extend( {lignite_recipe, sub_bituminous_recipe, bituminous_recipe, anthracite_recipe, diamond_recipe })

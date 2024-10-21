@@ -1,4 +1,4 @@
-local lignite = {
+local lignite_item = {
 	type = "item",
 	name = "CE_Lignite",
 	icon = "__Coal-Expanded__/icons/lignite.png",
@@ -10,7 +10,8 @@ local lignite = {
 	fuel_category = "chemical",
 	icon_size = 32,
 }
-local subBituminous = {
+
+local sub_bituminous_item = {
 	type = "item",
 	name = "CE_Sub-Bituminous_Coal",
 	icon = "__Coal-Expanded__/icons/sub-bituminous-coal.png",
@@ -22,7 +23,8 @@ local subBituminous = {
 	fuel_category = "chemical",
 	icon_size = 32,
 }
-local bituminous = {
+
+local bituminous_item = {
 	type = "item",
 	name = "CE_Bituminous_Coal",
 	icon = "__Coal-Expanded__/icons/bituminous-coal.png",
@@ -34,7 +36,8 @@ local bituminous = {
 	fuel_category = "chemical",
 	icon_size = 32,
 }
-local anthracite = {
+
+local anthracite_item = {
 	type = "item",
 	name = "CE_Anthracite",
 	icon = "__Coal-Expanded__/icons/anthracite.png",
@@ -46,7 +49,8 @@ local anthracite = {
 	fuel_category = "chemical",
 	icon_size = 32,
 }
-local diamond = {
+
+local diamond_item = {
 	type = "item",
 	name = "CE_Diamond",
 	icon = "__Coal-Expanded__/icons/diamond.png",
@@ -59,4 +63,4 @@ local diamond = {
 	icon_size = 32,
 }
 
-data:extend({lignite, subBituminous, bituminous, anthracite, diamond})
+data:extend( {lignite_item, sub_bituminous_item, bituminous_item, anthracite_item, diamond_item} )
