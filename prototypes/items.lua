@@ -1,4 +1,7 @@
 
+local coal = table.deepcopy(data.raw["item"]["coal"]);
+coal.stack_size = 1000
+
 local lignite_item = {
 	type = "item",
 	name = "CE_Lignite",
@@ -6,7 +9,7 @@ local lignite_item = {
 	flags = {},
 	subgroup = "raw-material",
 	order = "z1",
-	stack_size = 100,
+	stack_size = 1000,
 	fuel_value = "40MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
@@ -19,7 +22,7 @@ local sub_bituminous_item = {
 	flags = {},
 	subgroup = "raw-material",
 	order = "z2",
-	stack_size = 100,
+	stack_size = 1000,
 	fuel_value = "400MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
@@ -32,7 +35,7 @@ local bituminous_item = {
 	flags = {},
 	subgroup = "raw-material",
 	order = "z3",
-	stack_size = 100,
+	stack_size = 1000,
 	fuel_value = "4000MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
@@ -45,7 +48,7 @@ local anthracite_item = {
 	flags = {},
 	subgroup = "raw-material",
 	order = "z4",
-	stack_size = 100,
+	stack_size = 1000,
 	fuel_value = "40000MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
@@ -58,10 +61,10 @@ local diamond_item = {
 	flags = {},
 	subgroup = "raw-material",
 	order = "z5",
-	stack_size = 100,
+	stack_size = 1000,
 	fuel_value = "400000MJ",
 	fuel_category = "chemical",
 	icon_size = 32,
 }
 
-data:extend( {lignite_item, sub_bituminous_item, bituminous_item, anthracite_item, diamond_item} )
+data:extend( {coal, lignite_item, sub_bituminous_item, bituminous_item, anthracite_item, diamond_item} )
