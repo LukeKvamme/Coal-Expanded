@@ -11,4 +11,10 @@ data:extend({
     setting_type = "startup",
     default_value = false,
   },
+  {
+    type = "bool-setting",
+    name = "coal-stack-size-increase",
+    setting_type = "startup",
+    default_value = false,
+  },
 })

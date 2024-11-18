@@ -20,3 +20,11 @@ if settings.startup["coal-extended-speed-bonus"].value == true then
 	data.raw.item["CE_Diamond"].fuel_top_speed_multiplier = 1.5	
 	data.raw.item["CE_Diamond"].fuel_acceleration_multiplier = 2	
 end
+
+if settings.startup["coal-stack-size-increase"].value == true then
+	data.raw.item["CE_Lignite"].stack_size = 1000
+	data.raw.item["CE_Sub-Bituminous_Coal"].stack_size = 1000
+	data.raw.item["CE_Bituminous_Coal"].stack_size = 1000
+	data.raw.item["CE_Anthracite"].stack_size = 1000
+	data.raw.item["CE_Diamond"].stack_size = 1000
+end
