@@ -1,14 +1,12 @@
 {
-  "item":
-  [
+  "item": [
     ["Lignite", "CE_Lignite"],
     ["Sub-Bituminous Coal", "CE_Sub-Bituminous_Coal"],
     ["Bituminous Coal", "CE_Bituminous_Coal"],
     ["Anthracite", "CE_Anthracite"],
     ["Diamond", "CE_Diamond"]
   ],
-  "recipe":
-  [
+  "recipe": [
     ["Lignite", "CE_Lignite"],
     ["Sub-Bituminous Coal", "CE_Sub-Bituminous_Coal"],
     ["Bituminous Coal", "CE_Bituminous_Coal"],

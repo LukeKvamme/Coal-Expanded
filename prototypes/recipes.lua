@@ -4,6 +4,7 @@ local bituminous_recipe = table.deepcopy(data.raw["recipe"]["car"]);
 local anthracite_recipe = table.deepcopy(data.raw["recipe"]["car"]);
 local diamond_recipe = table.deepcopy(data.raw["recipe"]["car"]);
 
+
 lignite_recipe.name = "CE_Lignite_recipe";
 lignite_recipe.enabled = true;
 lignite_recipe.ingredients = { {type="item", name="coal", amount=10} };
