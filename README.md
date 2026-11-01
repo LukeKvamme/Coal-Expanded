@@ -1,5 +1,13 @@
 # Coal-Expanded (Game mod for Factorio)
-> Thank you for almost 2,000 downloads!
+
+[![Mod Portal](https://img.shields.io/badge/Factorio-Mod%20Portal-orange)](https://mods.factorio.com/mod/Coal-Expanded)
+
+[![Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2FCoal-Expanded&query=%24.releases%5B-1%3A%5D.version&label=version&logo=factorio)](https://mods.factorio.com/mod/Coal-Expanded)
+
+[![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2FCoal-Expanded&query=%24.downloads_count&label=downloads&color=blue)](https://mods.factorio.com/mod/Coal-Expanded)
+
+> Thank you for almost 2,500 downloads!
+ 
 
 This mod attempts to make coal less of a storage hog while making it more useful as a fuel source by adding new recipes to create new types of coal by condensing it -- making it take up less storage space while also providing more fuel per unit (if configured).
 
